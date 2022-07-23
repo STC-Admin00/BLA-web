@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+    font-weight:200
+  }
+  
+  @font-face {
+    font-family: "BebasNeue-Bold";
+    src: url("../fonts/BebasNeue/Bebas\ Neue\ Pro\ Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "BebasNeue-Thin";
+    src: url("../fonts/BebasNeue/Bebas\ Neue\ Pro\ Thin.ttf") format("truetype");
+  }
+
+.triVertSplitContainer {
+    margin-top: 2.5%;
+    font-family: BebasNeue-Thin;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh
+}
+
+.triVertSplitContainer div {
+    width: 100%;
+    height: 80vh;
+    padding: 5px;
+    /*border-style: solid;
+    border-width: 3px;
+    border-color: rgb(black);*/
+}
+
+.vertLines {
+    height: 100%;
+    margin-left: 42%;
+}
+
+.authorProfileGreeting {
+    font-size: 4vw;
+    margin-top: 30%;
+    margin-left: 40%;
+    text-align: center;
+}
+
+.btns {
+    font-family: BebasNeue-Light;
+    font-size: 5vw;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.02em;
+    margin-left: 0.75%;
+    padding: 4%;
+    text-align: center;
+    justify-content: center;
+    margin-right: 1vw;
+    display: table;
+
+}

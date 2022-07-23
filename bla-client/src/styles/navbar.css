@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url("../fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
+  }
+
+.navbar-css {
+    height: 60px;
+    border-color: black;
+    border-style: solid;
+    border-width: 12px;
+    background-color: transparent;
+    display:flex;
+}
+
+.navbar-logoList {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar-logoListItem-one {
+    font-family: "BebasNeue";
+    font-size: 38px;
+    font-weight: 600;
+    margin-right: 0px;
+    display: inline;
+    padding-left: 0px;
+    padding-bottom: 4px;
+    cursor:default;
+    
+}
+
+.navbar-logoListItem-two {
+    font-family: "BebasNeue";
+    font-size: 38px;
+    font-weight: 600;
+    margin-left: 6px;
+    display: inline;
+    padding-bottom: 4px;
+    cursor:default;
+}
+
+.navbar-logoListItem-three {
+    font-family: Montserrat-Thin;
+    font-size: 32px;
+    margin-right: 0px;
+    padding-bottom: 9px;
+    cursor: default;
+    font-weight: 800;
+    
+}
+
+.navbar-actionList {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    top: 0;
+    right: 25px;
+    align-items:center;
+    padding-inline-end: 30px;
+}
+
+.navbar-actionListItems {
+    font-family: "Montserrat";
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: 0;
+    cursor: pointer;
+    margin-left: 260px
+  }
+
+  .navbar-actionListItems:visited {
+      color: black
+  }
+
+  .navbar-actionListItems:active {
+    color: black
+}
+
+  .logo {
+      height: 32px;
+      padding-bottom: 3px;
+      image-resolution: calc();
+  }
+
+  .avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 0%;
+    object-fit: fill;
+    cursor: pointer;
+    padding-top: 3px
+  }

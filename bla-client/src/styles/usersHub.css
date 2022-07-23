@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "BebasNeue-Light";
+    src: url("../fonts/BebasNeue/Bebas\ Neue\ Pro\ Light.ttf") format("truetype");
+  }
+
+.hub-users {
+    width: 25.5vw;
+    height: 22.5vh;
+    border: solid;
+    border-color: rgba(56, 56, 56, 0.712);
+    border-radius: 8px;
+    border-width: 1px;
+    margin-right: 1vw;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.title-usersHub {
+  font-family: BebasNeue-Light;
+  font-size: 4vw;
+  margin-block-start: 0.16em;
+  margin-block-end: 0.05em;
+  text-align: center;
+}
+
+.grp-usersHub {
+  display: inline;
+  margin-left: 4.8vw;
+  margin-right: auto;
+  width: 100%;
+  position: absolute
+}
+
+.getBtn {
+  font-family: BebasNeue-Light;
+  font-size: 3vw;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.05em;
+  text-align: center;
+  margin-right: 1vw;
+
+}
+
+.postBtn {
+  font-family: BebasNeue-Light;
+  font-size: 3vw;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.05em;
+  text-align: center;
+  margin-right: 1vw;
+}
+
+.delBtn {
+  font-family: BebasNeue-Light;
+  font-size: 3vw;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.05em;
+  text-align: center;
+}

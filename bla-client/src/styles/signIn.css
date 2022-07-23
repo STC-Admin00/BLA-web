@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "BebasNeue";
+    src: url("../fonts/BebasNeue/Bebas\ Neue\ Pro\ Bold.ttf") format("truetype");
+  }
+
+  .showcase {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/GreySiteBody.png");
+    background-size:cover;
+    display:flex;
+    
+}
+
+.container-signin {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.top {
+    display: block;
+    width: 20vw;
+    height: 12vh;
+    
+}
+
+.btnPnl {
+  list-style: none;
+  display: block;
+  position: relative;
+  margin-top: 10vh;
+  margin-left: 3vw;
+}
+
+.upper {
+    font-family: Montserrat;
+    font-size: 3.8vw;
+    font-weight: 300;
+    margin-block-start: 0.05vh;
+    margin-block-end: 0.05vh;
+    text-align: center;
+    margin-left: 35vw;
+    list-style: none;
+    width: 32vw;
+}
+
+.lower {
+    font-family: BebasNeue;
+    font-size: 5vw;
+    font-weight: 500;
+    margin-block-start: 0.1vh;
+    margin-block-end: 0.05vh;
+    text-align: center;
+    margin-left: 40vw;
+    list-style: none;
+    width: 24vw;
+}
+
+.lgButton {
+    height: 9vh;
+    width:26vw;
+    padding-bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 35.75vw;
+    padding-top: 2vh;
+}
+
+.joinButton {
+    height: 9.5vh;
+    width: 15vw;
+    padding-left: 5.8vw;
+    cursor: pointer;
+    display: flex;
+    padding-left: 41vw;
+    padding-top: 1.5vh;
+    position: relative;
+}
+
+.finePt {
+  font-family: Montserrat;
+  font-size: 0.8vw;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 2.4vw;
+  padding-top: 2vh;
+}

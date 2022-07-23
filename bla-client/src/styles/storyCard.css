@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
+    font-weight:200
+  }
+  
+@font-face {
+    font-family: "BebasNeue-Bold";
+    src: url("./fonts/Bebas\ Neue\ Pro\ Bold.ttf") format("truetype");
+    font-weight: 500;
+  }
+
+@font-face {
+    font-family: "BebasNeue-Middle";
+    src: url("./fonts/Bebas\ Neue\ Pro\ Middle.ttf") format("truetype");
+  }
+
+.card {
+    width: 25.5vw;
+    height: 22.5vh;
+    border: solid;
+    border-color: black;
+    border-radius: 8px;
+    border-width: 1px;
+    
+    position: absolute;
+    background-color: whitesmoke;
+}
+
+.title {
+    font-family: BebasNeue-Middle;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    vertical-align: -15px;
+    margin-left: 2vw;
+}
+
+.img {
+    height: 6vh;
+    width: 10vw;
+    position: relative;
+    border: solid;
+    border-color: darkgrey;
+    border-width: 0.5px;
+    border-radius: 8px;
+    vertical-align: middle;
+    margin-left: 1.3vw;
+    margin-top: 1.5vh;
+}
+
+.desc {
+    font-family: Montserrat;
+    font-size: 17px;
+    position: relative;
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    padding-left: 0px;
+    max-height: 3.6em;
+    max-width: 22vw;
+    line-height: 1.8em;
+    margin-left: 2vw;
+    margin-top: 3%;
+}
+
+.actionButton {
+    margin-top: 2.5%;
+    margin-left: 38%;
+    position: relative;
+}

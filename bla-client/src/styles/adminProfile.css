@@ -1,0 +1,39 @@
+.triHorizSplitContainer {
+    margin-top: 2.5%;
+    font-family: BebasNeue-Thin;
+    display: table;
+    justify-content: space-between;
+    height: 80vh
+}
+
+.triHorizSplitContainer div {
+    width: 96vw;
+    height: 33%;
+    padding: 5px;
+    margin-left: 1.5%;
+}
+
+.horizLines {
+    height: 55%;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.adminProfileGreeting {
+    font-size: 5vw;
+    margin-top: 1%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.btn {
+    font-family: BebasNeue-Light;
+    font-size: 5vw;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.05em;
+    margin-left: 0.75%;
+    padding: 2%;
+    text-align: center;
+    margin-right: 1vw;
+
+}

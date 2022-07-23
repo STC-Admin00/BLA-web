@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+    font-weight:200
+  }
+  
+  @font-face {
+    font-family: "BebasNeue";
+    src: url("../fonts/BebasNeue/Bebas\ Neue\ Pro\ Bold.ttf") format("truetype");
+    font-weight: 400
+  }
+
+  .showcase {
+    height: 45vw;
+    width: 100vw;
+    background-image: url("../images/GreySiteBody.png");
+    background-size:cover;
+    display:flex;
+    position: absolute;
+}
+
+.container-emaillogin {
+  width: 40vw;
+  height: 70vh;
+  align-items: center;
+  position: absolute;
+  margin-left: 28%;
+  margin-top: 2%;
+  display: inline;
+  margin-left: 30vw;
+}
+
+.header {
+  font-family: BebasNeue-Bold;
+  font-size: 4.2vw;
+  text-align: center;
+  list-style: none;
+  display: block;
+  position: relative;
+  margin-bottom: 3vh;
+}
+
+.user-input {
+  column-count: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-details {
+margin-bottom: 3vh;
+}
+
+.details {
+font-family: BebasNeue-Middle;
+font-weight: 100;
+font-size: 1.9vw;
+list-style: none;
+display: inline;
+width: 12vw;
+margin-bottom: 1.3vh;
+text-align: center;
+}
+
+.field {
+width: 20vw;
+height: 4vh;
+margin-bottom: 1.3vh;
+font-family: Montserrat;
+text-align: center;
+font-size: large;
+}
+
+.opt {
+font-size: large;
+width: 6vw;
+height: 4vh;
+margin-right: 7.4vw;
+}
+
+.smButton {
+height: 3vh;
+width: 6vw;
+cursor: pointer;
+margin-left: 45%;
+
+}
+
+.persistCheck {
+  font-size: 0.75rem;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.persistCheck label {
+  margin: 0;
+}
+
+[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  margin: 0 5px 2px 2px;
+}

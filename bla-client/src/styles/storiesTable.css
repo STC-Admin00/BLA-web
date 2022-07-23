@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+    font-weight:200
+  }
+
+.storiesListLabel {
+    font-size: 4vw;
+    margin-left: 46%;
+}
+
+.storyListItem {
+    width: 25vw;
+    height: 15vh;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(black);
+    margin-left: 24%;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    text-align: start;
+    list-style-type: none;
+}

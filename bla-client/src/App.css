@@ -1,0 +1,13 @@
+.font-face-gm {
+  font-family: "BebasNeue";
+  font-family: "Montserrat";
+}
+
+.App {
+  height: 100%;
+  width: 100vw;
+  background-image: url("./images/GreySiteBody.png");
+  background-size: cover;
+  display: block;
+  position: absolute;
+}

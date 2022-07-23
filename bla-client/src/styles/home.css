@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "BebasNeue-Book";
+    src: url("../fonts/BebasNeue/Bebas\ Neue\ Pro\ Book.ttf") format("truetype");
+    font-weight:200
+  }
+  
+  @font-face {
+    font-family: "BebasNeue-Middle";
+    src: url("../fonts/BebasNeue/Bebas\ Neue\ Pro\ Middle.ttf") format("truetype");
+  }
+
+.showcase {
+    height: 100vh;
+    width: 110vw;
+    background-image: url("../images/GreySiteBody.png");
+    background-size:cover;
+    display:flex
+}
+
+.heading {
+    font-family: BebasNeue-Middle;
+    font-size: 4.6vw;
+    font-weight: 360;
+    margin-block-start: 1.0em;
+    margin-block-end: 0.05em;
+    padding-left: 130px
+}
+
+.pitch {
+    font-family: BebasNeue-Book;
+    font-size: 3vw;
+    font-weight: 200;
+    margin-block-start: 0.60em;
+    margin-block-end: 0.05em;
+    padding-left: 130px
+}
+
+.buttons {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-top: 2vw;
+    padding-left: 130px;
+}
+
+.button-item {
+    padding-right:30px;
+    width: 15vw;
+    height: 5.5vw;
+    cursor: pointer
+}
+
+.fire {
+    margin-left:40vw;
+    width: 16vw;
+    height: 14vw;
+    position: relative;
+    bottom: 20px
+}
+
+.phone-ex {
+    width: 22vw;
+    height:42vw;
+    top: 2vh;
+    right: 10vw;
+    margin-top: 10px;
+    position: absolute;
+}

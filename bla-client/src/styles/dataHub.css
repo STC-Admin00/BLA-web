@@ -1,0 +1,53 @@
+  @font-face {
+    font-family: "BebasNeue-Bold";
+    src: url("../fonts/BebasNeue/Bebas\ Neue\ Pro\ Bold.ttf") format("truetype");
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: "BebasNeue-Light";
+    src: url("../fonts/BebasNeue/Bebas\ Neue\ Pro\ Light.ttf") format("truetype");
+  }
+
+  .showcase-dataHub {
+    height: 45vw;
+    width: 100vw;
+    background-image: url("../images/GreySiteBody.png");
+    background-size:cover;
+    display:flex;
+    list-style: inside;
+}
+
+.title-dataHub {
+    font-family: BebasNeue-Bold;
+    font-size: 4.7vw;
+    text-align: center;
+    list-style: none;
+    display: block;
+    position: relative;
+    margin-top: 3vh;
+    margin-block-end: 0.53em;
+    margin-block-start: 0.53em;
+}
+
+.container-dataHub {
+    width: 80%;
+    height: 55vh;
+    align-items: center;
+    position: relative;
+    margin-left: 9%;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    padding-left: 1.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-dataHub {
+    
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: chartreuse;
+}
